@@ -1,0 +1,19 @@
+# AI, Machine Learning & Data Science Baseline
+torchvision
+pandas
+numpy
+scikit-learn
+matplotlib
+pyarrow
+ipykernel
+Pillow
+requests
+nbformat
+nbconvert
+jupyter
+ipywidgets
+plotly
+plotly[express]
+transformers
+anywidget
+umap-learn
