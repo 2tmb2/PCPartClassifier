@@ -1,4 +1,5 @@
 # AI, Machine Learning & Data Science Baseline
+torch
 torchvision
 pandas
 numpy

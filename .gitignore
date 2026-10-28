@@ -220,3 +220,6 @@ __marimo__/
 
 # Other
 *.DS_Store
+
+# Trained model checkpoints
+models/
