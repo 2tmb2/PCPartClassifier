@@ -152,8 +152,8 @@ def run_epoch(classifier, loader, loss_fn, device, optimizer=None):
 
 def checkpoint_path(validation_accuracy):
     filename = (
-        f"laptop_parts_resnet18_epochs{EPOCHS}_batchsize{BATCH_SIZE}_"
-        f"learningrate{LEARNING_RATE}_valacc{validation_accuracy:.2%}.pth"
+        f"valacc{validation_accuracy * 100:06.2f}pct_laptop_parts_resnet18_"
+        f"epochs{EPOCHS}_batchsize{BATCH_SIZE}_learningrate{LEARNING_RATE}.pth"
     )
     return OUTPUT_DIR / filename
 
